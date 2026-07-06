@@ -20,13 +20,14 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.0",
     "prettier": "3.9.4"
   },
   "dependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^26.1.0",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.7.3"
   }
 }
