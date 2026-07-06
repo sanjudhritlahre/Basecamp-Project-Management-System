@@ -1,0 +1,3 @@
+# GET ('/instagram') Instagram Route Page
+
+GET http://localhost:8000/instagram
