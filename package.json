@@ -18,5 +18,8 @@
   ],
   "author": "Sanju Dhritlahre",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "3.9.4"
+  }
 }
