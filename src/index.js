@@ -1,8 +1,17 @@
-import 'dotenv/config';
+import "dotenv/config";
+import express from "express";
 
-const db = process.env.DATABASE_URL;
+const app = express();
+const port = process.env.PORT || 3000;
 
-// TODO: Just Debugg the Code and Test Out!
-console.log("DATABASE:", db);
+app.get("/", (req, res) => {
+  res.send("Hello, World!");
+});
 
-console.log("Start of the Backend Project!");
+app.get("/instagram", (req, res) => {
+  res.send("This is an Instagram Page!");
+});
+
+app.listen(port, () => {
+  console.log(`App Server running at PORT: http://localhost:${port}`);
+});
