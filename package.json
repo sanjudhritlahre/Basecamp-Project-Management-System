@@ -1,0 +1,22 @@
+{
+  "name": "basecamp-pms",
+  "version": "1.0.0",
+  "description": "Project Camp Backend is a RESTful API service designed to support collaborative project management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "Basecamp Project Management Sytem",
+    "Project Management System",
+    "Project Management Platform",
+    "Restful API",
+    "Backend Project",
+    "Project Management Application for Beginners"
+  ],
+  "author": "Sanju Dhritlahre",
+  "license": "ISC",
+  "type": "module"
+}
